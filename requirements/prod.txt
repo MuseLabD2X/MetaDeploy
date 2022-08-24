@@ -56,7 +56,7 @@ channels==3.0.5
     # via
     #   -r requirements/prod.in
     #   channels-redis
-channels-redis==4.0.0b1
+channels-redis @ https://github.com/django/channels_redis/archive/db5e8ff762862ea9bb274d9a12dfbd7f486ac8c5.tar.gz
     # via -r requirements/prod.in
 charset-normalizer==2.0.12
     # via
